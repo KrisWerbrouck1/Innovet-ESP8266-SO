@@ -53,14 +53,13 @@ Het MAC-adres is het fysisch adres van een toestel in het netwerk. (zowel bedraa
  
 void setup(){
    Serial.begin(115200); // Communicatie snelheid UART
-   delay(500);
-   Serial.println();
-   Serial.print("MAC: ");
-   Serial.println(WiFi.macAddress()); //Weergave MAC adres via methode macAdress()
- 
 }
  
-void loop(){}
+void loop(){
+   Serial.print("MAC: ");
+   Serial.println(WiFi.macAddress()); //Weergave MAC adres via methode macAdress()
+   delay(1000);
+}
 
 ```
 

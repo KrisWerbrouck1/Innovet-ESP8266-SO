@@ -5,8 +5,22 @@ In de cursus wordt gebruik gemaakt van het WEMOS D1 R2 ontwikkelbord met dezelfd
 
 ![WEMOS D1 R2](./assets/ESP8266.png)
 
-De ESP8266 is niet standaard aanwezig in Arduino IDE. Er moeten extra bibliotheken toegevoegd worden. Volg onderstaande handleiding.
+De ESP8266 is niet standaard aanwezig in Arduino IDE. Er moeten extra bibliotheken toegevoegd worden.
 
-[Toevoegen ESP8266 bibliotheek in arduino IDE](https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon)
+Kies in het menu "Bestand" voor "Voorkeuren".
+![Voorkeuren](./assets/Voorkeuren.png)
+
+Voeg volgende URL toe:
+```url 
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+```
+![URL](./assets/URL.png)
+
+Kies vervolgens in het menu "Hulpmiddelen" voor "Board: " en kies "Board Beheer ..."
+![Board Beheer... ](./assets/BordBeheer.png)
+
+Zoek ESP8266 en installeer.
+
+![installeer](./assets/installeer.png)
 
 Zoek op wat de I/O spanning is van de ESP8266.
