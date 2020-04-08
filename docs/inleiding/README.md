@@ -1,9 +1,11 @@
 # Inleiding
 
 De ESP8266 is een goedkope 32 bit microcontroller met Wi-Fi mogelijkheid. De ESP8266 is ontwikkeld en wordt geproduceerd door de Chinese fabrikant Espressif Systems.
-In de cursus wordt gebruik gemaakt van het WEMOS D1 R2 ontwikkelbord met dezelfde lay-out als een Arduino Uno. 
+In de cursus wordt gebruik gemaakt van het WEMOS D1 R2 ontwikkelbord van RobotDyn met dezelfde lay-out als een Arduino Uno. 
 
 ![WEMOS D1 R2](./assets/ESP8266.png)
+
+## Toevoegen van de nodige bibliotheken aan Arduino IDE
 
 De ESP8266 is niet standaard aanwezig in Arduino IDE. Er moeten extra bibliotheken toegevoegd worden.
 
