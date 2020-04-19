@@ -29,6 +29,28 @@ void loop() {
 * Laat de ingebouwde LED op het bord knipperen. De ingebouwde LED op het bord is verbonden met GPIO14. 
 * Laat een LED knipperen op een andere I/O pin. 
 
+# Knipperled met alternatieve pinnummering
+
+In bovenstaande voorbeeld moet de gebruikte pinnummering steeds vergeleken worden met het overzicht. De gebruikte pinnummers zoals pin 16 in bovenstaande voorbeeld worden niet weergegeven op het WEMOS D1R2 bord.
+
+De I/O pinnummers weergegeven op het WEMOS D1R2 bord kunnen eveneens gebruikt worden. Zie onderstaande voorbeeld programma waarbij een led verbonden is met pin D0.
+
+```cpp
+// Blink
+void setup() {
+  // initialize GPIO16 as an output.
+  pinMode(D0, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(D0, HIGH); // turn the LED on (HIGH is the voltage level)
+  delay(1000);            // wait for a second
+  digitalWrite(D0, LOW);  // turn the LED off by making the voltage LOW
+  delay(1000);            // wait for a second
+}
+```
+
 #	Weergave tekst in serial monitor
 
 In volgende programma wordt een tekst weergegeven in de serial monitor. Let op de bit snelheid. 

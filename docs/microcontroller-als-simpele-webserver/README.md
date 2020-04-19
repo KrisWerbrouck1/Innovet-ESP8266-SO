@@ -61,7 +61,10 @@ ESP8266WebServer server(80);
 Wanneer wordt de functie handleRootPath aangeroepen wordt.
 
 
-Waarvoor staat ```cpp  server.send(200, "text / plain", "Other URL"); ```	
+Waarvoor staat de volgende regel code:
+```cpp 
+server.send(200, "text / plain", "Other URL"); 	
+```	
 
 ## Opdrachten
 * Geef je naam weer op de webpagina.

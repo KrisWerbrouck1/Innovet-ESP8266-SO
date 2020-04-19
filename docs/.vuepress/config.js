@@ -18,7 +18,8 @@ module.exports = {
         'Microcontroller als simpele webserver'
       ],
       ['/get-request/', 'GET-request'],
-      ['/post-request/', 'POST-request']
+      ['/post-request/', 'POST-request'],
+      ['/componentenlijst/', 'Componentenlijst']
     ],
     repo: 'https://github.com/KrisWerbrouck1/Innovet-ESP8266-SO.git',
     docsDir: 'docs',
