@@ -21,7 +21,7 @@ Via functietoets F12 op het toetsenbord kan meer info weergegeven worden in de b
 
 ![Weergave GET in browser](./assets/GET1.png)
 
-[Voorbeeld POST met php bestand](www.sensor-cube.be/opleidingiot/formpost.php)
+[Voorbeeld POST met php bestand](http://www.sensor-cube.be/opleidingiot/formpost.php)
 
 Via het php bestand formpost.php wordt informatie verstuurd. Test dit uit.
 
