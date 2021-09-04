@@ -24,8 +24,9 @@ void setup () {
 
 void loop() {
   if (WiFi.status() == WL_CONNECTED) { //Check WiFi connection status
+    WifiClient client;
     HTTPClient http;  //Declare an object of class HTTPClient
-    http.begin("http://jsonplaceholder.typicode.com/users/1");  //Specify request destination
+    http.begin(client,"http://jsonplaceholder.typicode.com/users/1");  //Specify request destination
     int httpCode = http.GET();                                                                  //Send the request
     Serial.print("HttpCode:");
     Serial.println(httpCode);
