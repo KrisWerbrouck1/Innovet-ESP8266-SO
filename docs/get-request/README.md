@@ -66,7 +66,7 @@ Meestal wordt de JSON-string niet mooi weergegeven. Zie onderstaande voorbeeld:
 [{"status":{"data":"JSON","json":"ok","sensordata":"succes 2-2-0"},"count":2,"output": [{"data":"3","status":"0"},{"data":"4","status":"3"}]}]
 ```
 
-Met [www.jsonlint.com](www.jsonlint.com) kan de JSON-string gecontroleerd worden op correctheid en leesbaar weergegeven worden.
+Met <https://www.jsonlint.com> kan de JSON-string gecontroleerd worden op correctheid en leesbaar weergegeven worden.
 ```json
 [{
 	"status": {
