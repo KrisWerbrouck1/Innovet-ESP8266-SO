@@ -18,8 +18,9 @@ void setup() {
 
 void loop() {
   if (WiFi.status() == WL_CONNECTED) { //Check WiFi connection status
+    WiFiClient client;
     HTTPClient http;    //Declare object of class HTTPClient
-    http.begin("http://sensor-cube.be/opleidingiot/formpost.php");
+    http.begin(client,"http://sensor-cube.be/opleidingiot/formpost.php");
     http.addHeader("Content-Type", "application/x-www-form-urlencoded");  //Specify content-type header
     int httpCode = http.POST("name=Message from ESP8266");   //Send the request
     String payload = http.getString();                  //Get the response payload
