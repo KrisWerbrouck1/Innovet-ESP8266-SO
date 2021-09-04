@@ -24,7 +24,7 @@ void setup () {
 
 void loop() {
   if (WiFi.status() == WL_CONNECTED) { //Check WiFi connection status
-    WifiClient client;
+    WiFiClient client;
     HTTPClient http;  //Declare an object of class HTTPClient
     http.begin(client,"http://jsonplaceholder.typicode.com/users/1");  //Specify request destination
     int httpCode = http.GET();                                                                  //Send the request
