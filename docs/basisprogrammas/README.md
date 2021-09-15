@@ -134,6 +134,7 @@ Het is mogelijk de status van de wifi verbinding na te zien. Voeg hiervoor volge
   Serial.printf("\nConnection status: %d\n", WiFi.status());
   Serial.print("Connected, IP address: ");
   Serial.println(WiFi.localIP());
+  delay(1000);
 ```
 
 Hierbij komt is:
@@ -150,7 +151,7 @@ Serial.printf("RSSI: %d dBm\n", WiFi.RSSI());
 
 # Weergave tijd
 
-De tijd kan opgehaald worden van een NTP Server. (Network Time Protocol) De communicatie verloopt normaal over poort 123.
+De tijd kan opgehaald worden van een NTP Server. (Network Time Protocol) De communicatie verloopt normaal over poort 123 met het UDP protocol.
 
 Hiervoor moet eerst de ntpclient bibliotheek toegevoegd worden van Fabrice Weinberg.
 
