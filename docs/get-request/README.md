@@ -85,6 +85,11 @@ Met <https://www.jsonlint.com> kan de JSON-string gecontroleerd worden op correc
 }]
 ```
 
+Meer info over JSON is te vinden op:
+[https://programmeerplaats.nl/wat-is-json](https://programmeerplaats.nl/wat-is-json) 
+
+
+
 ## Opdrachten
 *	Roep iedere 5 seconden via een GET request het bestand formget.php aan. Geef iedere maal een andere waarde mee. Vb: 1,2,3, … http://www.sensor-cube.be/opleidingiot/formget.php?naam=test 
 *	Verstuur om de 10 seconden een eigen dweet. Meer info kan je vinden op http://dweet.io/ De ESP8266 kan enkel gebruik maken van http, niet van https. Hou hier rekening mee. Geef het resultaat met freeboard eventueel weer.
